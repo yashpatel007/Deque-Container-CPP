@@ -1,0 +1,24 @@
+Name:Yash Patel
+B-Number:B00767521
+Class: # cs440 or cs540
+
+Not Working: 
+	1. the sort function is not implemented and i have commented it out. Everything else is working fine!
+	
+Implementation: 
+	The Deque work on the principal of circular array which can be expanded on need. 
+	With the help of circular array the performance for both insersion at front as well as back is approx 
+	O(1)[with some extra overhead maybe].
+	
+	               	    CIRCULAR QUEUE
+	--------------------------------------------------------
+	|	|	|	|	|	|	|      |
+	|	|	|	|	|	|	|      |
+	--------------------------------------------------------
+		    ^				   ^
+		    |                              |
+		   end				  front
+	other the sort function everything else iss working fine with the DEQUE
+	
+	*Note: please include <iostream> as i have used cout at various places.
+	
